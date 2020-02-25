@@ -1,3 +1,4 @@
 # Spicy-Raman
 Repository for raman image classification 
-Hey! bro
+Hey! bro!
+spicy second try

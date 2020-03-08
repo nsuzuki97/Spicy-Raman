@@ -22,3 +22,4 @@ Special thanks to Dave Beck, Ting Cao and the TAs of the University of Washingto
 Also many thank yous to freeCodeCamp.org, for free Tensorflow tutorials.
 
 Lastly, thank you so much to the Luscombe Lab and especially Samantha Phan for access to the raman spectrum data, sorry to increase your workflow in your already busy schedule :)
+

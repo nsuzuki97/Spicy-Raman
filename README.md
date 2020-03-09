@@ -1,5 +1,6 @@
 # Spicy-Raman
 
+<<<<<<< HEAD
 ### Background
 Microplastic ingestion has been considered to be a serious detriment to marine organisms, from oysters to orca whales. The majority of these samples have been identified to be one of four categories: polyethylene, nylon, polyamides, and fluorescents. Although comprising only about 20 - 25% of the total samples, this still represents about 10+ hours of analysis per study. By categorizing and filtering out these major classes of spectra, researchers will be able to focus on identifying novel groups of microparticles.
 
@@ -23,3 +24,9 @@ Also many thank yous to freeCodeCamp.org, for free Tensorflow tutorials.
 
 Lastly, thank you so much to the Luscombe Lab and especially Samantha Phan for access to the raman spectrum data, sorry to increase your workflow in your already busy schedule :)
 
+=======
+Which brand of the spicy ramen 
+
+
+Spicy Bruce
+>>>>>>> SpicyBruce

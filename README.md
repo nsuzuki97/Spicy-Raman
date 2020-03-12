@@ -8,7 +8,7 @@ Microplastic ingestion has been considered to be a serious detriment to marine o
 We employed **TensorFlow (and the keras API** because we are beginners) to create a model to classify the Raman spectrum from orca whale samples. The goal of our project is to machine learn the pattern of Raman spectra by polymer categories(e.g. polyamide, polyethylene), and let it expect the type a designated material falls into.
 In this specific model, 3 levels of neurons were used in order to optimize adequate complexity with ease of model creation and speed.
 
-We **acquired Raman spectra** from Luscombe Lab. We acquired them as .txt files so that we can finally change them into image files that can be used with Tensorflow(or Keras?). We first **plotted those text data and converted them into image files**(.png).  --- plotting function
+We **acquired Raman spectra** from Luscombe Lab. We acquired them as .txt files so that we can finally change them into image files that can be used with Tensorflow(or Keras?). We first **plotted those text data and converted them into image files**(.png).
 
 However since the amount of data we could get was less than we expected, we talked to Jimin Qian with this issue, and we decided to do the **data augmentation**.
 We first converted images into numpy array(img_to_array), expanded dimension(expand_dims), and created image data augmentation generator(ImageDataGenerator(zoom_range=[0.5,1.0])). We used os.scandir() function to iterate over data not yet augmented and got augmented data.

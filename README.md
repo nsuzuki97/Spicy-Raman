@@ -20,6 +20,9 @@ They were stored in either "trainingdata_Pictures" directory or "validationdata_
 
 Each train and validation set were then split into 5 categories: flourescent, nylon, polyamide, polyethylene, and unknown.
 
+![image](/mnt/c/Users/seans/Desktop/CEI_logo_tag.png)
+
+
 ### Use cases
 Since Raman spectroscopy offers key information of substances both quantitatively and qualitatively and is non-destructive, it is heavily used by different users in industry and laboratories. Users arrange from cosmetic makers, pharmaceutical suppliers, life scientists, product manufacturers to geologists.
 Specifically with our method we expect cosmetics makers can test bio-compatibilitiy, for example, before they want to launch a new product. They can machine-learn patterns of Raman spectra of substances that are already proven to be dangerous and use that pattern to predict whether or not a new substance they're trying to develop is safe to human body. Or they can choose "good" ingredients to be pattern-read and use them as a standard in developing new substances. Same mechanism can also be applied to pharmaceuticals. For product manufacturers we expect this method to be used as a tool for detecting substances, that are created during a certain manufacturing process, that causes a product failure(e.g. mechanical failure in a car chassis) by reading out chemicals inside and their Raman spectra. Likewise we hope this method can be used as an investigation tool in earth science, life science, and many more.

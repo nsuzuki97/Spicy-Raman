@@ -34,4 +34,3 @@ def full_augmentation(folder_name):
         for entry in entries:
             name = entry.name
             augmentation(name)
-            print(name)

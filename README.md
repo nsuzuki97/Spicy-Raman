@@ -1,5 +1,5 @@
 # Spicy-Raman
-![](/mnt/c/Users/seans/Desktop/CEI_logo_tag.png)
+
 <<<<<<< HEAD
 ### Background
 Microplastic ingestion has been considered to be a serious detriment to marine organisms, from oysters to orca whales. The majority of these samples have been identified to be one of four categories: polyethylene, nylon, polyamides, and fluorescents. Although comprising only about 20 - 25% of the total samples, this still represents about 10+ hours of analysis per study. By categorizing and filtering out these major classes of spectra, researchers will be able to focus on identifying novel groups of microparticles.
@@ -21,7 +21,7 @@ They were stored in either "trainingdata_Pictures" directory or "validationdata_
 Each train and validation set were then split into 5 categories: flourescent, nylon, polyamide, polyethylene, and unknown.
 
 ![image](/mnt/c/Users/seans/Desktop/CEI_logo_tag.png)
-
+![image](https://www.nps.gov/guis/images/110617_Racoon_Odom_01.jpg)
 
 ### Use cases
 Since Raman spectroscopy offers key information of substances both quantitatively and qualitatively and is non-destructive, it is heavily used by different users in industry and laboratories. Users arrange from cosmetic makers, pharmaceutical suppliers, life scientists, product manufacturers to geologists.

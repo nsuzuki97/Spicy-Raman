@@ -13,7 +13,6 @@ from matplotlib import pyplot as plt
 from sklearn.metrics import confusion_matrix 
 import itertools 
 import matplotlib.pyplot as plt 
-%matplotlib inline
 import os
 import random
 import shutil

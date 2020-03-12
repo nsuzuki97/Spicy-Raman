@@ -1,5 +1,8 @@
 # Spicy-Raman
-![](/mnt/c/Users/seans/Desktop/CEI_logo_tag.png)
+
+![image](https://www.cei.washington.edu/wordpress/wp-content/uploads/2016/01/CEI_logo_tag_color.1.png)
+![image](https://www.nps.gov/guis/images/110617_Racoon_Odom_01.jpg)
+
 <<<<<<< HEAD
 ### Background
 Microplastic ingestion has been considered to be a serious detriment to marine organisms, from oysters to orca whales. The majority of these samples have been identified to be one of four categories: polyethylene, nylon, polyamides, and fluorescents. Although comprising only about 20 - 25% of the total samples, this still represents about 10+ hours of analysis per study. By categorizing and filtering out these major classes of spectra, researchers will be able to focus on identifying novel groups of microparticles.
@@ -19,8 +22,6 @@ Those augmented data was then **separated by 50/50 into train and validation**,
 They were stored in either "trainingdata_Pictures" directory or "validationdata_Pictures".
 
 Each train and validation set were then split into 5 categories: flourescent, nylon, polyamide, polyethylene, and unknown.
-
-![image](/mnt/c/Users/seans/Desktop/CEI_logo_tag.png)
 
 
 ### Use cases

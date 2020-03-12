@@ -1,5 +1,5 @@
 # Spicy-Raman
-
+![](/mnt/c/Users/seans/Desktop/CEI_logo_tag.png)
 <<<<<<< HEAD
 ### Background
 Microplastic ingestion has been considered to be a serious detriment to marine organisms, from oysters to orca whales. The majority of these samples have been identified to be one of four categories: polyethylene, nylon, polyamides, and fluorescents. Although comprising only about 20 - 25% of the total samples, this still represents about 10+ hours of analysis per study. By categorizing and filtering out these major classes of spectra, researchers will be able to focus on identifying novel groups of microparticles.

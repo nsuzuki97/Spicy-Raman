@@ -4,7 +4,7 @@ from keras.preprocessing.image import img_to_array
 from keras.preprocessing.image import ImageDataGenerator
 from matplotlib import pyplot
 from matplotlib import image
-%matplotlib agg
+#%matplotlib agg
 import os
 
 

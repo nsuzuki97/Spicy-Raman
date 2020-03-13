@@ -17,7 +17,7 @@ We first converted images into a numpy array(img_to_array), expanded dimension(e
 
 We then created image databse in order to load these image data into codes.
 
-Those augmented data was then separated 80/20 into training and validation data.
+The augmented data was then separated 80/20 into training and validation data.
 They were stored in either "trainingdata_Pictures" directory or "validationdata_Pictures".
 
 Each train and validation set were then split into 5 categories: flourescent, nylon, polyamide, polyethylene, and unknown.
@@ -26,16 +26,18 @@ Each train and validation set were then split into 5 categories: flourescent, ny
 ### Use Case: Example 
 This is intended for use primarily as an classfication tool for samples obtained from marine biology. This is because the classes of molecules that this program can currently identify are polyethylene, nylon, polyamides, and fluorescent molecules. All other molecules types will be sorted into an "unknown" category, to be manually researched later. 
 
-When first using the Spicy-Raman program, 
+When using a raman scope in the Nanoes laboratory, the files must be saved to the M or Q drive in order to be accessed outside of the raman room. This should be saved as a .txt file in order to run this program. This data can then be stored in the "Data" folder within the Use cases and examples. 
+
+When first using the Spicy-Raman program, open the Model (also saved within the Use cases and examples category). Once the model is ran, a list of the probabilities will be shown, along with a resulting classfication inferred from the highest probability. 
 
 
 ### Future work
 As the number of identified particles increases, the hope is to increase the capability of the model in identifying an increasing category of Raman spectrum. This will enable future researchers to save more time when analyzing the Raman spectrum of orca (and other) microplastic pollution.
 
 ### Thanks and Acknowledgements
-Special thanks to Dave Beck, Ting Cao and the TAs of the University of Washington Direct Program for help and guidance in learning python and machine learning.
+Special thanks to Dave Beck, Ting Cao and the TAs of the University of Washington Direct Program for help and guidance in learning python and machine learning. Jimin was especially helpful when solving problems related to the TensorFlow model creation and various other difficulties.
 
 Also many thanks to freeCodeCamp.org, for free Tensorflow tutorials.
 
-Lastly, thank you so much to the Luscombe Lab and especially Samantha Phan for access to the raman spectrum data, sorry to increase your workflow in your already busy schedule
+Lastly, thank you so much to the Luscombe Lab and Samantha Phan for access to the raman spectrum data, sorry to increase your workflow in your already busy schedule
 

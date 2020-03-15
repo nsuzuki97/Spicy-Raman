@@ -9,7 +9,7 @@ def graph_and_save(data, name):
     x = data.iloc[:, 0]
     fig = plt.figure()
     ax = plt.subplot(111)
-    ax.plot(x, y, label='$y = numbers')
+    ax.plot(x, y)
     ax.legend()
     fig.savefig('Pre_Augmented_Raman_Pictures/' + name)
     plt.close('all')

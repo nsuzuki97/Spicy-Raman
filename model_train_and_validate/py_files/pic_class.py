@@ -1,6 +1,7 @@
 import os
 import shutil
 
+
 def picture_classification(source):
     with os.scandir(source) as entries:
         for entry in entries:
@@ -18,13 +19,13 @@ def picture_classification(source):
                 os.chdir(source)
                 if not os.path.exists('fluorescent_Pictures'):
                     os.makedirs('fluorescent_Pictures')
-                shutil.move(source + '/' +foldername, source + '/fluorescent_Pictures')
+                shutil.move(source + '/' + foldername, source + '/fluorescent_Pictures')
             elif 'nylon' in foldername:
                 os.chdir(source)
                 if not os.path.exists('nylon_Pictures'):
                     os.makedirs('nylon_Pictures')
-                shutil.move(source + '/' +foldername, source + '/nylon_Pictures')
+                shutil.move(source + '/' + foldername, source + '/nylon_Pictures')
             else:
                 if not os.path.exists('others_Pictures'):
                     os.makedirs('others_Pictures')
-                shutil.move(source + '/' +foldername, source + '/others_Pictures')
+                shutil.move(source + '/' + foldername, source + '/others_Pictures')

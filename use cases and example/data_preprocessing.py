@@ -10,8 +10,7 @@ def graph_and_save(data, name):
     fig = plt.figure()
     ax = plt.subplot(111)
     ax.plot(x, y)
-    ax.legend()
-    fig.savefig('Pictures/' + name)
+    fig.savefig('Raman_Pictures/' + name)
     plt.close('all')
 
 

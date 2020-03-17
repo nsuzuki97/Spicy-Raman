@@ -11,7 +11,9 @@ def graph_and_save(data, name):
     ax = plt.subplot(111)
     ax.plot(x, y)
     ax.legend()
-    fig.savefig('Pre_Augmented_Raman_Pictures/' + name)
+    source = os.getcwd()
+    source2 = os.path.dirname(source) + '/Pre_Augmented_Raman_Pictures'
+    fig.savefig(source2 + name)
     plt.close('all')
 
 

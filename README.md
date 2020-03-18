@@ -1,4 +1,4 @@
-# Spicy-Raman ![image](http://localhost:8861/view/89974070_574110309978428_6657576097690943488_n.jpg)
+# Spicy-Raman ![image](https://github.com/nsuzuki97/Spicy-Raman/blob/master/89974070_574110309978428_6657576097690943488_n.jpg)
 
 [![Build Status](https://travis-ci.org/nsuzuki97/Spicy-Raman.svg?branch=master)](https://travis-ci.org/nsuzuki97/Spicy-Raman)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 

@@ -62,7 +62,7 @@ Each train and validation set were then split into 5 categories: flourescent, ny
 
 * Go to the `model_train_and_validate` directory 
 
-* Put your data into the `Raman_Data` directory
+* Put the Raman data txt file into the `Raman_Data` directory
 
 * Go to the `Training and Validation Files Generation.ipynb` file and run it
 

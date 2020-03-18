@@ -2,9 +2,7 @@
 
 [![Build Status](https://travis-ci.org/nsuzuki97/Spicy-Raman.svg?branch=master)](https://travis-ci.org/nsuzuki97/Spicy-Raman)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/cei/spicy-raman/2?color=green&logoColor=green)
-
-![Coveralls github branch](https://img.shields.io/coveralls/github/nsuzuki97/Spicy-Raman/master?color=orange)
+.. image:: https://img.shields.io/azure-devops/coverage/cei/spicy-raman/2?color=green&logoColor=green   :alt: Azure DevOps coverage
 
 <img src="https://www.cei.washington.edu/wordpress/wp-content/uploads/2016/01/CEI_logo_tag_color.1.png" width="555" height="160">  ![image](https://i.dailymail.co.uk/1/2018/09/27/17/4591062-0-image-m-35_1538065690576.jpg)
 
@@ -17,7 +15,7 @@ Microplastic ingestion has been considered to be a serious detriment to marine o
 We employed TensorFlow (and the keras API because we are beginners) to create a model to classify the Raman spectrum from orca whale samples. The goal of our project is to machine learn the pattern of Raman spectra by polymer categories(e.g. polyamide, polyethylene), and let it expect the type a designated material falls into.
 In this specific model, 3 levels of neurons were used in order to optimize adequate complexity with ease of model creation and speed.
 
-We acquired Raman spectra from Luscombe Lab. We acquired them as .txt files so that we can finally change them into image files that can be used with Tensorflow(or Keras?). We first plotted those text data and converted them into image files(.png).
+We acquired Raman spectra from Luscombe Lab. We acquired them as .txt files so that we can finally change them into image files that can be used with Tensorflow. We first plotted those text data and converted them into image files(.png).
 
 However since the amount of data we could get was less than we expected, we talked to Jimin Qian with this issue, and we decided to do data augmentation.
 We first converted images into a numpy array(img_to_array), expanded dimension(expand_dims), and created image data augmentation generator(ImageDataGenerator(zoom_range=[0.5,1.0])). We used os.scandir() function to iterate over data not yet augmented and got augmented data.

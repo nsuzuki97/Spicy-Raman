@@ -44,4 +44,4 @@ Lastly, thank you so much to the Luscombe Lab and Samantha Phan for access to th
 
 
 
-<img src="http://depts.washington.edu/uwdirect/wordpress/wp-content/uploads/2017/04/uwdirect-logo-w7.png"> <img src="https://d2f99xq7vri1nk.cloudfront.net/university_washington_logo_with_text.png" width="50%">
+<img src="http://depts.washington.edu/uwdirect/wordpress/wp-content/uploads/2017/04/uwdirect-logo-w7.png"> <img src="https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/98/2014/09/07214443/Signature_Center_Purple_Hex.png" width="50%">

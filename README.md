@@ -42,3 +42,4 @@ Also many thanks to freeCodeCamp.org, for free Tensorflow tutorials.
 
 Lastly, thank you so much to the Luscombe Lab and Samantha Phan for access to the raman spectrum data, sorry to increase your workflow in your already busy schedule
 
+<img src="http://depts.washington.edu/uwdirect/wordpress/wp-content/uploads/2017/04/uwdirect-logo-w7.png">

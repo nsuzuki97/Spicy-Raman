@@ -1,15 +1,17 @@
 # Spicy-Raman
 
-[![Build Status](https://travis-ci.org/nsuzuki97/Spicy-Raman.svg?branch=master)](https://travis-ci.org/nsuzuki97/Spicy-Raman)
+[![Build Status](https://travis-ci.org/nsuzuki97/Spicy-Raman.svg?branch=master)](https://travis-ci.org/nsuzuki97/Spicy-Raman)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/cei/spicy-raman/2?color=green&logoColor=green)
 
 <img src="https://www.cei.washington.edu/wordpress/wp-content/uploads/2016/01/CEI_logo_tag_color.1.png" width="555" height="160">  ![image](https://i.dailymail.co.uk/1/2018/09/27/17/4591062-0-image-m-35_1538065690576.jpg)
 
 ### Background
+-----------
 Microplastic ingestion has been considered to be a serious detriment to marine organisms, from oysters to orca whales. The majority of these samples have been identified to be one of four categories: polyethylene, nylon, polyamides, and fluorescents. Although comprising only about 20 - 25% of the total samples, this still represents about 10+ hours of analysis per study. By categorizing and filtering out these major classes of spectra, researchers will be able to focus on identifying novel groups of microparticles.
 
 ### Project Scope, Quick Intro
+-----------
 We employed TensorFlow (and the keras API because we are beginners) to create a model to classify the Raman spectrum from orca whale samples. The goal of our project is to machine learn the pattern of Raman spectra by polymer categories(e.g. polyamide, polyethylene), and let it expect the type a designated material falls into.
 In this specific model, 3 levels of neurons were used in order to optimize adequate complexity with ease of model creation and speed.
 
@@ -25,19 +27,79 @@ They were stored in either "trainingdata_Pictures" directory or "validationdata_
 
 Each train and validation set were then split into 5 categories: flourescent, nylon, polyamide, polyethylene, and unknown.
 
+### Instructions
+-----------
+#### Dependencies:
+
+`pandas`
+
+`tensorflow`
+
+`os`
+
+`matplotlib`
+
+`numpy`
+
+`random`
+
+`shutil`
+
+`zipfile`
+
+
+#### Installing:
+
+* Open your terninal, `git clone https://github.com/nsuzuki97/Spicy-Raman.git` to download
+
+* To see the files inside, put `cd Spicy-Raman`, `ls`
+
+#### brefore starting
+
+* Open your terminal, put `conda activate SpicyRaman` to change the environment -- `SpicyRaman.yslm` 
+
+#### Training machine and creating the model
+
+* Go to the `model_train_and_validate` directory 
+
+* Put the Raman data txt file into the `Raman_Data` directory
+
+* Go to the `Training and Validation Files Generation.ipynb` file and run it
+
+* Go to the `Core Model.ipynb` file and run it, you can save and zip the model
+
+#### Using the model to predict your own images
+
+* Go to the `use cases and example` folder
+
+* Put your own image data in `Raman_Pictures`
+
+* Go to the `Model.ipynb` and run it, you can get the prediction result of you own images
+
+### The result of the model
+
+
+### Data Dependencies
+--------
+
+### Running the nosetests
+--------
+By using the `nosetests` in the terminal
 
 ### Use Case: Example 
+-----------
 This is intended for use primarily as an classfication tool for samples obtained from marine biology. This is because the classes of molecules that this program can currently identify are polyethylene, nylon, polyamides, and fluorescent molecules. All other molecules types will be sorted into an "unknown" category, to be manually researched later. 
 
 When using a raman scope in the Nanoes laboratory, the files must be saved to the M or Q drive in order to be accessed outside of the raman room. This should be saved as a .txt file in order to run this program. This data can then be stored in the "Put_Raman_txt_Files_Here" folder within the Use cases and examples. 
 
 When first using the Spicy-Raman program, open the Model (also saved within the Use cases and examples category). Once the model is ran, a list of the probabilities will be shown, along with a resulting classfication inferred from the highest probability. 
 
-
 ### Future work
+-----------
 As the number of identified particles increases, the hope is to increase the capability of the model in identifying an increasing category of Raman spectrum. This will enable future researchers to save more time when analyzing the Raman spectrum of orca (and other) microplastic pollution.
 
 ### Thanks and Acknowledgements
+-----------
 Special thanks to Dave Beck, Ting Cao and the TAs of the University of Washington Direct Program for help and guidance in learning python and machine learning. Jimin was especially helpful when solving problems related to the TensorFlow model creation and various other difficulties.
 
 Also many thanks to freeCodeCamp.org, for free Tensorflow tutorials.

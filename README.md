@@ -73,6 +73,7 @@ By using the `nosetests` in the terminal
 
 ### Use Case: Example 
 -----------
+![image](https://github.com/nsuzuki97/Spicy-Raman/blob/master/90098097_719295935142100_4205960902018596864_n.jpg)
 This is intended for use primarily as an classfication tool for samples obtained from marine biology. This is because the classes of molecules that this program can currently identify are polyethylene, nylon, polyamides, and fluorescent molecules. All other molecules types will be sorted into an "unknown" category, to be manually researched later. 
 
 When using a raman scope in the Nanoes laboratory, the files must be saved to the M or Q drive in order to be accessed outside of the raman room. This should be saved as a .txt file in order to run this program. This data can then be stored in the "Put_Raman_txt_Files_Here" folder within the Use cases and examples. 

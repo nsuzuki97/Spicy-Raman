@@ -4,7 +4,7 @@ import shutil
 
 def test_picture_classification():
     source = os.getcwd()
-    source2 = os.path.dirname(source) + 'trainingdata_Pictures'
+    source2 = os.path.dirname(source) + '/trainingdata_Pictures'
     with os.scandir(source2) as entries:
         for entry in entries:
             foldername = entry.name

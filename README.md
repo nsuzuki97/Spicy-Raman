@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/nsuzuki97/Spicy-Raman.svg?branch=master)](https://travis-ci.org/nsuzuki97/Spicy-Raman)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 <img src="https://www.cei.washington.edu/wordpress/wp-content/uploads/2016/01/CEI_logo_tag_color.1.png" width="555" height="160">  ![image](https://i.dailymail.co.uk/1/2018/09/27/17/4591062-0-image-m-35_1538065690576.jpg)
 
 ### Background

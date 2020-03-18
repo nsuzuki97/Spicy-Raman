@@ -13,7 +13,7 @@ Microplastic ingestion has been considered to be a serious detriment to marine o
 We employed TensorFlow (and the keras API because we are beginners) to create a model to classify the Raman spectrum from orca whale samples. The goal of our project is to machine learn the pattern of Raman spectra by polymer categories(e.g. polyamide, polyethylene), and let it expect the type a designated material falls into.
 In this specific model, 3 levels of neurons were used in order to optimize adequate complexity with ease of model creation and speed.
 
-We acquired Raman spectra from Luscombe Lab. We acquired them as .txt files so that we can finally change them into image files that can be used with Tensorflow. We first plotted those text data and converted them into image files(.png).
+We acquired Raman spectra from Luscombe Lab. We acquired them as .txt files so that we can finally change them into image files that can be used with Tensorflow(or Keras?). We first plotted those text data and converted them into image files(.png).
 
 However since the amount of data we could get was less than we expected, we talked to Jimin Qian with this issue, and we decided to do data augmentation.
 We first converted images into a numpy array(img_to_array), expanded dimension(expand_dims), and created image data augmentation generator(ImageDataGenerator(zoom_range=[0.5,1.0])). We used os.scandir() function to iterate over data not yet augmented and got augmented data.
@@ -29,22 +29,8 @@ Each train and validation set were then split into 5 categories: flourescent, ny
 -----------
 #### Dependencies:
 
-`pandas`
-
-`tensorflow`
-
-`os`
-
-`matplotlib`
-
-`numpy`
-
-`random`
-
-`shutil`
-
-`zipfile`
-
+`pandas` `tensorflow` `os` `matplotlib`
+`numpy` `random` `shutil` `zipfile`
 
 #### Installing:
 
@@ -79,6 +65,7 @@ Each train and validation set were then split into 5 categories: flourescent, ny
 
 ### Data Dependencies
 --------
+The data was taken from the Luscome Lab, at the University of Washington. When first importing the .txt files from your raman results, please open the use_cases_and_examples directory, then put your files into the put_your_raman_txt_files_here directory.
 
 ### Running the nosetests
 --------
@@ -98,11 +85,11 @@ As the number of identified particles increases, the hope is to increase the cap
 
 ### Thanks and Acknowledgements
 -----------
-Special thanks to Dave Beck, Ting Cao and the TAs of the University of Washington Direct Program for help and guidance in learning python and machine learning. Jimin was especially helpful when solving problems related to the TensorFlow model creation and various other difficulties.
+Special thanks to Dave Beck, Ting Cao and the TAs of the University of Washington Direct Program for help and guidance in learning python and machine learning. Jimin was especially helpful when solving problems related to the TensorFlow model creation and various other difficulties. Thank you Jimin!!!
 
 Also many thanks to freeCodeCamp.org, for free Tensorflow tutorials.
 
-Lastly, thank you so much to the Luscombe Lab and Samantha Phan for access to the raman spectrum data, sorry to increase your workflow in your already busy schedule
+Lastly, thank you so much to the Luscombe Lab and Samantha Phan for access to the raman spectrum data, sorry to increase your workflow in your already busy schedule. 
 
 
 

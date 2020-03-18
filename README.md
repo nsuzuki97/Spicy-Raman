@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/nsuzuki97/Spicy-Raman.svg?branch=master)](https://travis-ci.org/nsuzuki97/Spicy-Raman)
 
-<img src="https://www.cei.washington.edu/wordpress/wp-content/uploads/2016/01/CEI_logo_tag_color.1.png" width="500" height="150">     ![image](https://i.dailymail.co.uk/1/2018/09/27/17/4591062-0-image-m-35_1538065690576.jpg)
+<img src="https://www.cei.washington.edu/wordpress/wp-content/uploads/2016/01/CEI_logo_tag_color.1.png" width="550" height="150">  ![image](https://i.dailymail.co.uk/1/2018/09/27/17/4591062-0-image-m-35_1538065690576.jpg)
 
 ### Background
 Microplastic ingestion has been considered to be a serious detriment to marine organisms, from oysters to orca whales. The majority of these samples have been identified to be one of four categories: polyethylene, nylon, polyamides, and fluorescents. Although comprising only about 20 - 25% of the total samples, this still represents about 10+ hours of analysis per study. By categorizing and filtering out these major classes of spectra, researchers will be able to focus on identifying novel groups of microparticles.
@@ -41,5 +41,7 @@ Special thanks to Dave Beck, Ting Cao and the TAs of the University of Washingto
 Also many thanks to freeCodeCamp.org, for free Tensorflow tutorials.
 
 Lastly, thank you so much to the Luscombe Lab and Samantha Phan for access to the raman spectrum data, sorry to increase your workflow in your already busy schedule
+
+
 
 <img src="http://depts.washington.edu/uwdirect/wordpress/wp-content/uploads/2017/04/uwdirect-logo-w7.png">

@@ -1,5 +1,5 @@
 # Spicy-Raman
-https://travis-ci.org/nsuzuki97/Spicy-Raman.svg?branch=master
+
 [![Build Status](https://travis-ci.org/nsuzuki97/Spicy-Raman.svg?branch=master)](https://travis-ci.org/nsuzuki97/Spicy-Raman)
 ![image](https://www.cei.washington.edu/wordpress/wp-content/uploads/2016/01/CEI_logo_tag_color.1.png)
 

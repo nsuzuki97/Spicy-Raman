@@ -11,7 +11,7 @@ def test_graph_and_save():
     big_folder = os.path.dirname(source) + '/Raman_Data'
     data = pd.read_csv(big_folder + '/' + 'fluorescent' + '/' + '20191004 Set3Sample3_10a 1_.txt' , sep='\s+')
     name = 'fluorescent' + "_" + '20191004 Set3Sample3_10a 1_.txt' + ".png"
-    graph_and_save(data, name)
+    pp.graph_and_save(data, name)
     assert len(data) is not 2, 'the dataframe needs to have two columns'
     assert isinstance(data, pd.DataFrame) == True, 'you need to put a Dataframe inside'
     

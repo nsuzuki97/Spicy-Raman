@@ -62,7 +62,7 @@ Each train and validation set were then split into 5 categories: flourescent, ny
 
 ### The result of the model
 
-
+<img src="https://github.com/nsuzuki97/Spicy-Raman/blob/master/Screen%20Shot%202020-03-19%20at%204.40.36%20PM.png" width="40%">
 ### Data Dependencies
 --------
 The data was taken from the Luscome Lab, at the University of Washington. When first importing the .txt files from your raman results, please open the use_cases_and_examples directory, then put your files into the put_your_raman_txt_files_here directory.

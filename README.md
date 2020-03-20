@@ -1,4 +1,4 @@
-# Spicy-Raman <img src="https://github.com/nsuzuki97/Spicy-Raman/blob/master/logo.jpg" width="20%">
+# Spicy-Raman <img src="https://github.com/nsuzuki97/Spicy-Raman/blob/master/logo.png" width="20%">
 
 [![Build Status](https://travis-ci.org/nsuzuki97/Spicy-Raman.svg?branch=master)](https://travis-ci.org/nsuzuki97/Spicy-Raman)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 

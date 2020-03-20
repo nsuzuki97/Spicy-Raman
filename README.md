@@ -26,8 +26,8 @@ They were stored in either "trainingdata_Pictures" directory or "validationdata_
 Each train and validation set were then split into 5 categories: flourescent, nylon, polyamide, polyethylene, and unknown.
 
 ### Sturcture
-`
-|-Licence
+
+$|-Licence
 
 |-README
 
@@ -122,8 +122,8 @@ Each train and validation set were then split into 5 categories: flourescent, ny
 |-result.jpg
 
 |-usecases.jpg
+$
 
-`
 
 ### Instructions
 -----------

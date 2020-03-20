@@ -27,52 +27,99 @@ Each train and validation set were then split into 5 categories: flourescent, ny
 
 ### Sturcture
 `|-Licence
+
 |-README
+
 |-model_train_and_validate/
+
   |-Post_Augmented_Raman_Pictures
+  
   |-Pre_Augmented_Raman_Picture
+  
   |-Raman_Data
+  
   |-py_files
+  
   |-test/
+  
     |-preprocessing.py
+    
     |-Augmentation.py
+    
     |-pic_class.py
+    
     |-TrainTestSplit.py
+    
     |-test_Augmentation.py
+    
     |-test_pic_class.py
+    
     |-test_preprocessing.py
+    
     |-test_TrainTestSplit.py
+    
   |-trainingdata_Pictures/
+  
     |-fluorescent_Pictures
+    
     |-nylon_Pictures
+    
     |-others_Pictures
+    
     |-polyamide_Pictures
+    
     |-polyethylene_Pictures
+    
   |-validationdata_Pictures
+  
     |-fluorescent_Pictures
+    
     |-nylon_Pictures
+    
     |-others_Pictures
+    
     |-polyamide_Pictures
+    
     |-polyethylene_Pictures
+    
   |-IPYNB Files/
+  
     |-Data Augmentation .ipynb
+    
     |-Data Preprocessing - creating an image database for training and testing the program.ipynb
+    
     |-MFramework.ipynb
+    
     |-TrainTestSplit .ipynb
+    
     |-picture_classification.ipynb
+    
   |-Core Model.ipynb
+  
   |-Spicy_Raman_Saved_Model.zip
+  
   |-Training and Validation Files Generation.ipynb
+  
 |-use cases and example/
+
   |-Put_Raman_txt_Files_Here
+  
   |-Model.ipynb
+  
   |-data_preprocessing.py
+  
   |-Put_Raman_txt_Files_Here
+  
 |-SpicyRaman.yml
+
 |-.gitignore
+
 |-.travis.yml
+
 |-logo.jpg
+
 |-result.jpg
+
 |-usecases.jpg
 `
 ### Instructions
@@ -106,7 +153,9 @@ Each train and validation set were then split into 5 categories: flourescent, ny
 
 * Go to the `use cases and example` folder
 
-* Put your own image data in `Raman_Pictures`
+* Put your own txt data in `Put_Raman_txt_Files_Here`
+
+* Go to the `data_preprocessing.py` run it, you can get the images
 
 * Go to the `Model.ipynb` and run it, you can get the prediction result of you own images
 

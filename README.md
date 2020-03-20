@@ -1,4 +1,4 @@
-# Spicy-Raman <img src="https://github.com/nsuzuki97/Spicy-Raman/blob/master/89974070_574110309978428_6657576097690943488_n.jpg" width="20%">
+# Spicy-Raman <img src="https://github.com/nsuzuki97/Spicy-Raman/blob/master/logo.jpg" width="20%">
 
 [![Build Status](https://travis-ci.org/nsuzuki97/Spicy-Raman.svg?branch=master)](https://travis-ci.org/nsuzuki97/Spicy-Raman)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -24,6 +24,106 @@ The augmented data was then separated 80/20 into training and validation data.
 They were stored in either "trainingdata_Pictures" directory or "validationdata_Pictures".
 
 Each train and validation set were then split into 5 categories: flourescent, nylon, polyamide, polyethylene, and unknown.
+
+### Sturcture
+
+```
+|-Licence
+
+|-README
+
+|-model_train_and_validate/
+
+  |-Post_Augmented_Raman_Pictures
+  
+  |-Pre_Augmented_Raman_Picture
+  
+  |-Raman_Data
+  
+  |-py_files
+  
+  |-test/
+  
+  |-preprocessing.py
+    
+  |-Augmentation.py
+    
+  |-pic_class.py
+    
+  |-TrainTestSplit.py
+    
+    |-test_Augmentation.py
+    
+    |-test_pic_class.py
+    
+    |-test_preprocessing.py
+    
+    |-test_TrainTestSplit.py
+    
+  |-trainingdata_Pictures/
+  
+    |-fluorescent_Pictures
+    
+    |-nylon_Pictures
+    
+    |-others_Pictures
+    
+    |-polyamide_Pictures
+    
+    |-polyethylene_Pictures
+    
+  |-validationdata_Pictures
+  
+    |-fluorescent_Pictures
+    
+    |-nylon_Pictures
+    
+    |-others_Pictures
+    
+    |-polyamide_Pictures
+    
+    |-polyethylene_Pictures
+    
+  |-IPYNB Files/
+  
+    |-Data Augmentation .ipynb
+    
+    |-Data Preprocessing - creating an image database for training and testing the program.ipynb
+    
+    |-MFramework.ipynb
+    
+    |-TrainTestSplit .ipynb
+    
+    |-picture_classification.ipynb
+    
+  |-Core Model.ipynb
+  
+  |-Spicy_Raman_Saved_Model.zip
+  
+  |-Training and Validation Files Generation.ipynb
+  
+|-use cases and example/
+
+  |-Put_Raman_txt_Files_Here
+  
+  |-Model.ipynb
+  
+  |-data_preprocessing.py
+  
+  |-Put_Raman_txt_Files_Here
+  
+|-SpicyRaman.yml
+
+|-.gitignore
+
+|-.travis.yml
+
+|-logo.jpg
+
+|-result.jpg
+
+|-usecases.jpg
+```
 
 ### Instructions
 -----------
@@ -56,13 +156,15 @@ Each train and validation set were then split into 5 categories: flourescent, ny
 
 * Go to the `use cases and example` folder
 
-* Put your own image data in `Raman_Pictures`
+* Put your own txt data in `Put_Raman_txt_Files_Here`
+
+* Go to the `data_preprocessing.py` run it, you can get the images
 
 * Go to the `Model.ipynb` and run it, you can get the prediction result of you own images
 
 ### The result of the model
 
-
+![img](https://github.com/nsuzuki97/Spicy-Raman/blob/master/result.png) 
 ### Data Dependencies
 --------
 The data was taken from the Luscome Lab, at the University of Washington. When first importing the .txt files from your raman results, please open the use_cases_and_examples directory, then put your files into the put_your_raman_txt_files_here directory.
@@ -73,8 +175,7 @@ By using the `nosetests` in the terminal
 
 ### Use Case: Example 
 -----------
-![image](https://github.com/nsuzuki97/Spicy-Raman/blob/master/90098097_719295935142100_4205960902018596864_n.jpg)
-<img src="https://github.com/nsuzuki97/Spicy-Raman/blob/master/89974070_574110309978428_6657576097690943488_n.jpg" width="40%">
+<img src="https://github.com/nsuzuki97/Spicy-Raman/blob/master/usecases.jpg" width="40%">
 This is intended for use primarily as an classfication tool for samples obtained from marine biology. This is because the classes of molecules that this program can currently identify are polyethylene, nylon, polyamides, and fluorescent molecules. All other molecules types will be sorted into an "unknown" category, to be manually researched later. 
 
 When using a raman scope in the Nanoes laboratory, the files must be saved to the M or Q drive in order to be accessed outside of the raman room. This should be saved as a .txt file in order to run this program. This data can then be stored in the "Put_Raman_txt_Files_Here" folder within the Use cases and examples. 

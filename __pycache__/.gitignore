@@ -1,9 +1,0 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-*.pyc
-
-echo Augmentation.cpython-37.pyc >> .gitignore
-git rm --cached Augmentation.cpython-37.pyc
-rm 'Augmentation.cpython-37.pyc'

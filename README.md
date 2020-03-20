@@ -27,7 +27,7 @@ Each train and validation set were then split into 5 categories: flourescent, ny
 
 ### Sturcture
 
-`|-Licence
+|-Licence
 
 |-README
 
@@ -43,13 +43,13 @@ Each train and validation set were then split into 5 categories: flourescent, ny
   
   |-test/
   
-    |-preprocessing.py
+  |-preprocessing.py
     
-    |-Augmentation.py
+  |-Augmentation.py
     
-    |-pic_class.py
+  |-pic_class.py
     
-    |-TrainTestSplit.py
+  |-TrainTestSplit.py
     
     |-test_Augmentation.py
     
@@ -122,7 +122,6 @@ Each train and validation set were then split into 5 categories: flourescent, ny
 |-result.jpg
 
 |-usecases.jpg
-`
 
 
 ### Instructions

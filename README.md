@@ -27,7 +27,7 @@ Each train and validation set were then split into 5 categories: flourescent, ny
 
 ### Sturcture
 
-$|-Licence
+`|-Licence
 
 |-README
 
@@ -122,7 +122,7 @@ $|-Licence
 |-result.jpg
 
 |-usecases.jpg
-$
+`
 
 
 ### Instructions

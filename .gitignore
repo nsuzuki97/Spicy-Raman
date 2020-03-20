@@ -2,6 +2,5 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.pyc
-echo Augmentation.cpython-37.pyc >> .gitignore
-git rm --cached Augmentation.cpython-37.pyc
-rm 'debug.log'
+
+git rm __pycache__ -r

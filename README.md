@@ -83,7 +83,9 @@ When first using the Spicy-Raman program, open the Model (also saved within the 
 
 ### Future work
 -----------
-As the number of identified particles increases, the hope is to increase the capability of the model in identifying an increasing category of Raman spectrum. This will enable future researchers to save more time when analyzing the Raman spectrum of orca (and other) microplastic pollution.
+In the future, we would like to make functionality improvements in both machine learning aspects, as well as automation of other manual tasks when using a Raman Microscope. Firstly, as the number of identified particles increases, the hope is to increase the capability of the model in identifying an increasing category of Raman spectrum. This will enable future researchers to save more time when analyzing the Raman spectrum of orca (and other) microplastic pollution. 
+
+We would also like to automate the process of physically taking raman spectrums. Currently, the laser is manually focused through a light microscope onto single particles, layed out on filters, after which a spectrum is taken. By using stepmotor/image recognition, we would like the machine to sample though the specimens, automatically collecting raman data.
 
 ### Thanks and Acknowledgements
 -----------
